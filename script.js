@@ -64,13 +64,13 @@ GitHubCalendar(".calendar", "Ghufran", { responsive: true });
 var resumeLink = document.querySelector("#resume-button-1");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
-  // window.open(
-  //   "https://onedrive.live.com/view.aspx?resid=28E32F7AA490015B!551&authkey=!AFzRJF9ixXvV4Ck",
-  //   "_blank"
-  // );
+  window.open(
+    "https://drive.google.com/file/d/1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS/view?usp=drive_link",
+    "_blank"
+  );
   let link = document.createElement("a");
   link.href =
-  "https://drive.google.com/uc?export=download&id=1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS";
+    "https://drive.google.com/uc?export=download&id=1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS";
   link.download = "Md-Ghufran-Resume";
   link.click();
 });
@@ -78,13 +78,13 @@ resumeLink.addEventListener("click", function (event) {
 var resumeLink = document.querySelector("#resume-button-2");
 resumeLink.addEventListener("click", function (event) {
   event.preventDefault();
-  // window.open(
-  //   "https://onedrive.live.com/view.aspx?resid=28E32F7AA490015B!551&authkey=!AFzRJF9ixXvV4Ck",
-  //   "_blank"
-  // );
+  window.open(
+    "https://drive.google.com/file/d/1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS/view?usp=drive_link",
+    "_blank"
+  );
   let link = document.createElement("a");
   link.href =
-  "https://drive.google.com/uc?export=download&id=1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS"
+    "https://drive.google.com/uc?export=download&id=1vrNn-_IDIfMq3dTpn5Af-cUv9_-G_jpS";
   link.download = "Md-Ghufran-Resume";
   link.click();
 });
